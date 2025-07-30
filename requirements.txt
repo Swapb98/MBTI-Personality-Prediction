@@ -1,9 +1,16 @@
+# Core ML libraries
 keras==2.12.0
-matplotlib==3.7.1
-nltk==3.8.1
-pandas==1.5.3
 scipy==1.10.1
+scikit-learn==1.2.2  # replaced incorrect 'sklearn' alias
+
+# Data handling and analysis
+pandas==1.5.3
+nltk==3.8.1
+
+# Visualization
+matplotlib==3.7.1
 seaborn==0.12.2
-session_info==1.0.0
-sklearn==1.2.2
 wordcloud==1.8.2.2
+
+# Environment info
+session_info==1.0.0
